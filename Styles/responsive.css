@@ -1,0 +1,24 @@
+@media screen and (min-width:576px) and (max-width:992px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .navbar-icons{
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+/* For Mobile device */
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+        
+    }
+    .navbar-icons{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+}
