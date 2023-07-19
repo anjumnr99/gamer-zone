@@ -69,6 +69,35 @@
         font-size: 25px;
         margin-top: 20px;
     }
+    
+
+    .groups-of-icons-sections {
+        width: 100%;
+        height: auto;
+    }
+
+    .groups-of-icons-container {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 10px; 
+    }
+     
+    .icon-image{
+        display: flex;
+        flex-basis: 20%;
+        margin-bottom: 8px;
+        padding: 0;
+        gap: 12px;
+        color: #0B0223; 
+        font-size: 15px;
+        font-weight: 400;
+        margin-right: 10px;
+        padding: 0 20px;
+
+    }
+
+
 
     .info-container,
     .social-media,
@@ -87,25 +116,6 @@
         font-size: medium;
     }
 
-
-    .groups-of-icons-container {
-        width: 100%;
-        flex-basis: 400px;
-    }
-
-    .groups-of-icons-sections {
-        width: 100%;
-        height: auto;
-    }
-
-    .icon-details {
-        width: max-content;
-        padding: 2px;
-        font-size: 10px;
-        font-weight: 300;
-        border-radius: 50px;
-        gap: 8px;
-    }
 
 }
 
@@ -229,33 +239,32 @@
         text-shadow: 2px 2px 4px gray;
     }
 
-    .groups-of-icons-container {
-        width: 100%;
-    }
 
     .groups-of-icons-sections {
         width: 100%;
         height: auto;
     }
 
-    .icon-details {
-        width: 30%;
+    .groups-of-icons-container {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px; 
+    }
+     
+    .icon-image{
+        display: flex;
+        flex-basis: 10%;
+        margin-bottom: 8px;
         padding: 0;
-        font-size: 10px;
-        font-weight: 300;
-        border-radius: 50px;
-        gap: 8px;
-    }
-    .icon-details .icon-image img{
-        width: 50%;
-        height: 50%;
-    }
-    .icon-details .icon-image{
-        width: 50%;
-        padding: 0;
-        margin: 0;
-    }
+        gap: 11px;
+        color: #0B0223; 
+        font-size: 15px;
+        font-weight: 400;
+        margin-right: 10px;
+        padding: 0 10px;
 
+    }
 
     .info-container,
     .social-media,
