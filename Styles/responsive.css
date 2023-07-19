@@ -51,20 +51,60 @@
         font-weight: 500;
     }
 
-    .games-online{
-            gap: 35px;
+    .games-online {
+        gap: 35px;
     }
+
     .games-online-image {
-        
-         margin-right: 5px;
-        
+
+        margin-right: 5px;
+
     }
+
     .games-online-description {
         padding: 5px;
     }
+
     .games-online-description h1 {
         font-size: 25px;
         margin-top: 20px;
+    }
+
+    .info-container,
+    .social-media,
+    .Privacy-Policy {
+        width: 80%;
+        flex-basis: 400px;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin: 20px auto;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: medium;
+    }
+
+
+    .groups-of-icons-container {
+        width: 100%;
+        flex-basis: 400px;
+    }
+
+    .groups-of-icons-sections {
+        width: 100%;
+        height: auto;
+    }
+
+    .icon-details {
+        width: max-content;
+        padding: 2px;
+        font-size: 10px;
+        font-weight: 300;
+        border-radius: 50px;
+        gap: 8px;
     }
 
 }
@@ -155,26 +195,31 @@
         font-weight: 500;
         text-align: center;
     }
-    .games-online{
+
+    .games-online {
         flex-direction: column-reverse;
         width: 100%;
     }
-    .games-online-image{
+
+    .games-online-image {
         width: 80%;
         margin: 0 auto;
     }
-    .games-online-description{
+
+    .games-online-description {
         width: 100%;
         padding: 10px;
         text-align: center;
     }
-    .games-online-description h1{
+
+    .games-online-description h1 {
         text-align: center;
         font-size: 30px;
         font-weight: 600;
         margin: 0 0 10px 0;
     }
-    .games-online-description p{
+
+    .games-online-description p {
         text-align: center;
         font-size: 15px;
         font-weight: 350;
@@ -183,9 +228,49 @@
         padding-right: 10px;
         text-shadow: 2px 2px 4px gray;
     }
-    .groups-of-icons-container{
-        width: 100%;
-        flex-basis: 20px;
 
+    .groups-of-icons-container {
+        width: 100%;
+    }
+
+    .groups-of-icons-sections {
+        width: 100%;
+        height: auto;
+    }
+
+    .icon-details {
+        width: 30%;
+        padding: 0;
+        font-size: 10px;
+        font-weight: 300;
+        border-radius: 50px;
+        gap: 8px;
+    }
+    .icon-details .icon-image img{
+        width: 50%;
+        height: 50%;
+    }
+    .icon-details .icon-image{
+        width: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .info-container,
+    .social-media,
+    .Privacy-Policy {
+        width: 80%;
+        flex-basis: 400px;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin: 20px auto;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: medium;
     }
 }
