@@ -6,6 +6,39 @@
         margin: 0 auto;
         margin-bottom: 15px;
     }
+    .play-like-container{
+        width: 100%;
+        height: auto;
+        padding: 10%
+    }
+    .play-like-images{
+        width: 100%;
+    }
+    .play-like-btn{
+        display: flex;
+    }
+    .play-like-description h1 {
+        font-size: 50px;
+        font-weight: 500;
+        margin-bottom: 10px;
+
+    }
+    
+    .play-like-description h4 {
+        font-size: 24px;
+        font-weight: 350;
+    }
+    
+    .play-like-container .play-like-icons-parts .play-like-icons p {
+        font-size: 15px;
+        font-weight: 250;
+    
+    }
+    .play-like-btn button {
+        padding: 15px 20px;
+        font-size: 15px;
+        font-weight: 300;
+    }
 }
 
 
@@ -20,5 +53,46 @@
     .navbar-icons{
         flex-direction: column;
         margin-bottom: 15px;
+    }
+
+    .play-like-the-goat-section{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .play-like-container{
+        width: 100%;
+        height: auto;
+        padding: 10%
+    }
+    .play-like-images{
+        width: 100%;
+    }
+    .play-like-btn{
+        display: flex;
+    }
+    .play-like-description h1 {
+        font-size: 50px;
+        font-weight: 500;
+        margin-bottom: 10px;
+
+    }
+    
+    .play-like-description h4 {
+        font-size: 24px;
+        font-weight: 350;
+    }
+    
+    .play-like-container .play-like-icons-parts .play-like-icons p {
+        font-size: 15px;
+        font-weight: 250;
+    
+    }
+    .play-like-btn button {
+        padding: 15px 20px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .play-like-container .play-like-icons {
+        gap: 7px;
     }
 }
