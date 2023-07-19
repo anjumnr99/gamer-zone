@@ -183,4 +183,9 @@
         padding-right: 10px;
         text-shadow: 2px 2px 4px gray;
     }
+    .groups-of-icons-container{
+        width: 100%;
+        flex-basis: 20px;
+
+    }
 }
