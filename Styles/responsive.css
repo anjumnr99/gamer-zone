@@ -51,7 +51,26 @@
         font-weight: 500;
     }
 
+    .games-online{
+            gap: 35px;
+    }
+    .games-online-image {
+        
+         margin-right: 5px;
+        
+    }
+    .games-online-description {
+        padding: 5px;
+    }
+    .games-online-description h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
 }
+
+
+
 
 
 
@@ -135,5 +154,33 @@
         font-size: 11px;
         font-weight: 500;
         text-align: center;
+    }
+    .games-online{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .games-online-image{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .games-online-description{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .games-online-description h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0 0 10px 0;
+    }
+    .games-online-description p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 350;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-shadow: 2px 2px 4px gray;
     }
 }
