@@ -1,44 +1,56 @@
-@media screen and (min-width:576px) and (max-width:992px){
-    .nav-container{
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container {
         flex-direction: column;
     }
-    .navbar-icons{
+
+    .navbar-icons {
         margin: 0 auto;
         margin-bottom: 15px;
     }
-    .play-like-container{
+
+    .play-like-container {
         width: 100%;
         height: auto;
         padding: 10%
     }
-    .play-like-images{
+
+    .play-like-images {
         width: 100%;
     }
-    .play-like-btn{
+
+    .play-like-btn {
         display: flex;
     }
+
     .play-like-description h1 {
         font-size: 50px;
         font-weight: 500;
         margin-bottom: 10px;
 
     }
-    
+
     .play-like-description h4 {
         font-size: 24px;
         font-weight: 350;
     }
-    
+
     .play-like-container .play-like-icons-parts .play-like-icons p {
         font-size: 15px;
         font-weight: 250;
-    
+
     }
+
     .play-like-btn button {
         padding: 15px 20px;
         font-size: 15px;
         font-weight: 300;
     }
+
+    .cards-container .card-image-description p {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
 }
 
 
@@ -46,53 +58,82 @@
 
 /* For Mobile device */
 @media screen and (max-width:576px) {
-    .nav-container{
+    .nav-container {
         flex-direction: column;
-        
+
     }
-    .navbar-icons{
+
+    .navbar-icons {
         flex-direction: column;
         margin-bottom: 15px;
     }
 
-    .play-like-the-goat-section{
+    .play-like-the-goat-section {
         flex-direction: column-reverse;
         margin: 0 auto;
     }
-    .play-like-container{
+
+    .play-like-container {
         width: 100%;
         height: auto;
         padding: 10%
     }
-    .play-like-images{
+
+    .play-like-images {
         width: 100%;
     }
-    .play-like-btn{
+
+    .play-like-btn {
         display: flex;
     }
+
     .play-like-description h1 {
         font-size: 50px;
         font-weight: 500;
         margin-bottom: 10px;
 
     }
-    
+
     .play-like-description h4 {
         font-size: 24px;
         font-weight: 350;
     }
-    
+
     .play-like-container .play-like-icons-parts .play-like-icons p {
         font-size: 15px;
         font-weight: 250;
-    
+
     }
+
     .play-like-btn button {
         padding: 15px 20px;
         font-size: 15px;
         font-weight: 300;
     }
+
     .play-like-container .play-like-icons {
         gap: 7px;
+    }
+
+    .cards-container {
+
+        grid-template-columns: 1fr;
+    }
+
+    .online-games-sections h4 {
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    .online-games-sections p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .cards-container .card-image-description p {
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
     }
 }

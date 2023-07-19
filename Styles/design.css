@@ -7,6 +7,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.coloring-font {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
 
 /* Navbaar design Starts */
 
@@ -73,6 +78,7 @@ nav {
     font-weight: 500;
 }
 
+
 /* Play like the goat section STARTs */
 .play-like-the-goat-section {
     width: 90%;
@@ -106,9 +112,6 @@ nav {
 .play-like-description h1 {
     font-size: 80px;
     font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    color: transparent;
-    -webkit-background-clip: text;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -151,17 +154,68 @@ nav {
     text-transform: uppercase;
     border: none;
 }
-.play-like-btn .btn-pink{
+
+.play-like-btn .btn-pink {
     background: #FF42A5;
 
 }
-.play-like-btn .btn-skyblue{
+
+.play-like-btn .btn-skyblue {
     background: #4EC5F7;
 }
-.play-like-images img{
+
+.play-like-images img {
     width: 100%;
     height: 100%;
 }
-.play-like-icons-parts{
-    margin-bottom: 30px ;
+
+.play-like-icons-parts {
+    margin-bottom: 30px;
 }
+
+
+/* Online section games starts */
+.online-games-sections {
+    width: 80%;
+    min-height: 20px;
+    margin: 100px auto;
+}
+.online-games-title{
+    width: 100%;
+}
+.online-games-sections h4 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.online-games-sections p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cards-container{
+    display: grid;
+    width: 100%;
+    min-height: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 50px;
+
+}
+
+.cards-container .card-image-description p{
+    color: #534C64;
+font-size: 15px;
+font-weight: 500;
+text-align: left;
+}
+.cards-container .card .card-image img{
+   width: 100%; 
+   display: block;
+}
+
